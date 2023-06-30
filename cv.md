@@ -10,7 +10,7 @@
 > Self-learning is hard, but the results are yours alone!
 
 I started my career as a graphic designer in 2013. Then I switched to UX Design and successfully completed a course from Google UX Certification. Now I take on UX development projects as a freelancer. While immersing myself in design development I often encountered code and got interested in how everything works. I learned HTML and CSS by myself and made several web pages. I want to make web pages come alive with Java Script so I started to learn it. I like learning.
-I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer!
 
 ---
 
