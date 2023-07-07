@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wrapper {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 2% 10%;
+    padding: 2% 3%;
+    background-color: #f9f9f9;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.page-header-nav {
+    display: block;
+}
+.page-header-nav ul {
+    list-style-type: none;
+}
+.site-navigation {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.site-navigation__link {
+    text-decoration: none;
+}
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+.description_me {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 4em;
+
+}
+.descriptions_wrapp {
+    margin-left: 1em;
+}
+.site-navigation a {
+    margin-right: 1em;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+	position: relative;
+	text-decoration: none;
+
+}
+.site-navigation a::before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: -5px;
+	width: 0;
+	height: 1px;
+	background-color: rgb(23, 23, 23);
+}
+
+.site-navigation a:hover:before {
+	width: 100%;
+}
+
+.site-navigation a::before {
+	transition: width 0.35s;
+}
+.descriptions_wrapp h1 {
+    font-size: 48px;
+}
+.descriptions_wrapp h2 {
+    margin-bottom: 0.5em;
+}
+blockquote {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1.5em;
+}
+.social__social_icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+.social__social_icons img {
+    width: 55px;
+    height: auto;
+    margin-right: 1em;
+}
+.desc_img {
+    border-radius: 3%;
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.about-me__description p {
+    margin-top: 2em;
+    line-height: 1.7;
+}
+.description_tech {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8em;
+}
+.description_tech ul {
+    list-style: none;
+}
