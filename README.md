@@ -1,2 +1,2 @@
-# rsschool-cv
-Learning project
+https://wtc066.github.io/rsschool-cv/cv  
+https://wtc066.github.io/rsschool-cv/
